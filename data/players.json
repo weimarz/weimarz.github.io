@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Canada",
+    "points": 58,
+    "rank": "1",
+    "wins": 34,
+    "losses": 11,
+    "views": 1195
+  },
+  {
+    "name": "Kafka",
+    "points": 52,
+    "rank": "2",
+    "wins": 31,
+    "losses": 11,
+    "views": 1195
+  },
+  {
+    "name": "RLS",
+    "points": 45,
+    "rank": "3",
+    "wins": 27,
+    "losses": 11,
+    "views": 1195
+  }
+]

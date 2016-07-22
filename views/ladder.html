@@ -1,0 +1,6 @@
+<div class="player"  ng-repeat="player in players">
+    <a href="#/players/{{$index}}">
+      <div class="name"><span class="rank">{{ player.rank }}.</span>{{ player.name }}<span class="points">{{ player.points }}</span></div>
+        <div class="addinfo">W: {{ player.wins }}</div>
+    </a>
+</div>

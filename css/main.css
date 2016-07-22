@@ -1,0 +1,56 @@
+html {
+   font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+  background-image: linear-gradient(to bottom, #025167, #61B7CF); /* Standard syntax */
+    min-height: 100%;
+    text-align: center;
+}
+#header{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.player {
+    height:50px;
+    width: 270px;
+    margin: auto;
+    margin-bottom: 2px;
+    background-color: #025167;
+    color: white;
+    font-size: 24px;
+}
+/*<p class="name"><span class="rank">{{ player.rank }}.</span>{{ player.name }}<span class="points">{{ player.points }}.</span></p>
+        <p class="addinfo">W: {{ player.wins }}</p> */
+.rank, .points{
+    color:yellow;
+    text-align: right;
+    
+}
+.name{
+m
+}
+.addinfo{
+font-size: 12px;
+    margin:10px;
+}
+.player:hover {
+    background-color: #61B7CF;
+}
+
+.player:first-child {
+
+        height:80px;
+    width: 300px;
+}
+
+.player:nth-child(2) {
+        height:70px;
+    width: 290px;
+}
+.player:nth-child(3) {
+        height:65px;
+    width: 285px;
+}
